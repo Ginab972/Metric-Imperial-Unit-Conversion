@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Metric/Imperial Unit Conversion</title>
+</head>
+<body>
+<div id="container">
+    
+        <header>
+            <h1>Metric/Imperial Unit Conversion</h1> <br>
+            <h2>Enter a number</h2> 
+
+            <div class="value">
+                <input type="number"  name="input-value" id="input-value" >
+                <p id="value-el"></p>
+            </div>
+            
+
+            <button id="gBtn">Convert</button>
+            
+        </header>
+   
+
+            <div class="results">
+
+                <div class="results__item group_1">
+                    <h3><strong>Length (Meter/Feet)</strong></h3>
+                    <p id="length-el"></p>
+                </div>
+
+
+                <div class="results__item group_2">
+                    <h3><strong>Volume (Liters/Gallons)</strong></h3>
+                    <p id="volume-el"></p>
+                </div>
+
+                <div class="results__item group_3">
+                    <h3><strong>Mass (Kilograms/Pounds)</strong></h3>
+                    <p id="mass-el"></p>
+                </div>
+            <!-- <hr/> -->
+
+            <button type="button" id="cBtn" onClick="reloadThePage()">Refresh!</button>
+   
+    
+</div>
+    <script src="index.js"></script>
+        
+</body>
+</html>
